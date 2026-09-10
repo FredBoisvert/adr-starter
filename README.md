@@ -44,8 +44,8 @@ ADRs should be short enough to read, useful enough to guide implementation, and 
 
 ### 1. Use this repository as a template
 
-Select **Use this template** on GitHub, or copy the `docs/adr` directory into your own repository.
+Select **Use this template** on GitHub, or copy the `templates/*.md` files into your own repository.
 
 ### 2. Create your first ADR
 
-Copy the template and start writing your first ADR.
+Copy the related template and start writing your first ADR.
