@@ -68,3 +68,4 @@ access-control, or policy implications.
 ## References
 
 - [Link title](https://example.com)
+- [Diagram](https://lucid.co)
