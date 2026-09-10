@@ -48,5 +48,4 @@ Select **Use this template** on GitHub, or copy the `docs/adr` directory into yo
 
 ### 2. Create your first ADR
 
-```bash
-./scripts/new-adr.sh "Choose API style for partner integrations"
+Copy the template and start writing your first ADR.
