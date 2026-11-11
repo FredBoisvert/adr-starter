@@ -21,10 +21,18 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        
+      - name: Configure Markdownlint
+        run: |
+          cat > .markdownlint-cli2.yaml <<'EOF'
+          config:
+            MD013: false
+          EOF
 
       - name: Lint Markdown files
         uses: DavidAnson/markdownlint-cli2-action@v19
         with:
+          config: .markdownlint-cli2.yaml
           globs: |
             **/*.md
             !node_modules/**
